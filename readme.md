@@ -1,1 +1,0 @@
-... a concrodance between party riding/EDA names, and their corresponding, noramlized names and their ids.

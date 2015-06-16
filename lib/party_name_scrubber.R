@@ -2,7 +2,7 @@ library(stringr)
 
 scrub_boilerplate <- function(name) {
   for(pattern in boilerplate_patterns) {
-    name <- str_replace_all(name, ignore.case(pattern), "")
+    name <- str_replace_all(name, regex(pattern, ignore_case= TRUE), "")
   }
   str_trim(name)
 }
